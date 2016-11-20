@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: ata-2023-dash
+  host: ata-2023-dash
+  disk_quota: 1024M
+  buildpack: php_buildpack
